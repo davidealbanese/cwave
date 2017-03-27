@@ -1,0 +1,11 @@
+include *.txt
+include *.rst
+include tests/*.py
+
+# include documentation source files
+recursive-include doc/source *
+include doc/Makefile
+include doc/make.bat
+
+# excludes must be at the end
+global-exclude .DS_Store *.pyc .vscode

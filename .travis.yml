@@ -1,0 +1,15 @@
+language: python
+python:
+- '2.7'
+- '3.3'
+- '3.4'
+- '3.5'
+install: pip install .
+deploy:
+  provider: pypi
+  user: davidealbanese
+  password:
+    secure: QTY8dqEatEqqEkRIUcMp4xBP6bVv3wpn0/wClpVWY1eMSrrB6shcCLaPhdo6bB7BRmccGLJKG3TzAsoHqxEvlO/0yfuDbirCiNUutdOYkSJNEmiCYwpve2lER7otMStlnN04syJqNpC2seHB7UrT01tplH8woh60d7bosuZZ1aU=
+  on:
+    tags: true
+    repo: compbio-fmach/cwave
