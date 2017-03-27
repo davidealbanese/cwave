@@ -13,3 +13,4 @@ deploy:
   on:
     tags: true
     repo: compbio-fmach/cwave
+  distributions: "sdist bdist_wheel"
