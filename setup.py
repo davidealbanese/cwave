@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from cwave import __version__
 
 _classifiers = [
     'Development Status :: 5 - Production/Stable',
@@ -12,7 +11,7 @@ _classifiers = [
 
 setup(
     name='cwave',
-    version = __version__,
+    version = "1.0dev",
     packages = find_packages(),
     description='cwave',
     long_description=open('README.rst').read(),
