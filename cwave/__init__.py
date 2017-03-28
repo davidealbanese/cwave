@@ -1,4 +1,4 @@
-__version__ = "1.0.dev"
+__version__ = "1.0"
 
 from .trans import Series, Trans, cwt, icwt
 from .wavefun import Wavelet, Morlet, Paul, DOG
