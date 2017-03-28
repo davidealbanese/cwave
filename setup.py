@@ -11,7 +11,7 @@ _classifiers = [
 
 setup(
     name='cwave',
-    version = "1.0",
+    version = "1.1.dev",
     packages = find_packages(),
     description='cwave',
     long_description=open('README.rst').read(),
