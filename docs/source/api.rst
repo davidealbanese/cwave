@@ -35,7 +35,7 @@ All the wavelet function classes inherit from the abstract class
     Wavelet.fourier_period
     Wavelet.efolding_time
 
-Moreover, the :class:`Wavelet` expose the following methods (available to the 
+Moreover, the :class:`Wavelet` exposes the following methods (available to the 
 subclasses):
 
 .. autosummary::

@@ -6,8 +6,9 @@ python:
 - '3.5'
 before_install:
 - sudo apt-get -qq update
-- sudo apt-get install python-numpy python-scipy
+- sudo apt-get install python-numpy
 install: pip install .
+script: python -c "import cwave"
 deploy:
   provider: pypi
   user: davidealbanese
